@@ -1,7 +1,5 @@
-<?php 
+<?php
 
-echo "Привет, Саня от Гикбрейнс <br>" . date("Y-m-d H:i:s") . "<br><br>";
+echo "Это первое домашнее задание";
 
-echo "Что-то еще";
-
-phpinfo();
+// docker run --rm -v ${pwd}/php-cli/:/cli php:8.2-cli php /cli/start.php
